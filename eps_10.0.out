@@ -1,0 +1,24 @@
+2023-04-15 19:33:44.745661: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-04-15 19:33:45.623492: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 11414 MB memory:  -> device: 0, name: NVIDIA TITAN Xp, pci bus id: 0000:02:00.0, compute capability: 6.1
+2023-04-15 19:33:49.853617: I tensorflow/stream_executor/cuda/cuda_dnn.cc:369] Loaded cuDNN version 8201
+The shape of the image (64, 64, 3)
+Details: (64, 64, 3) (1, 16, 16, 64) (1, 64, 64, 3)
+[0 0 1 0 0 1 1 1 0 1]
+[0 0 0 0 1 0 1 0 1 1]
+[0 0 1 0 1 1 0 1 1 0]
+[9.818586   0.09861918]
+[11.375   5.8125]
+Loss test: 30.84853744506836
+Step: 0, Initial Loss: 30.84853744506836
+Step: 1, Loss: 30.8458194732666
+epoch 0, loss 30.8458194732666
+epoch 100000, loss 14.576674461364746
+epoch 200000, loss 13.946930885314941
+epoch 300000, loss 13.614847183227539
+epoch 400000, loss 13.361106872558594
+epoch 500000, loss 13.177652359008789
+epoch 600000, loss 13.035343170166016
+epoch 700000, loss 12.915632247924805
+epoch 800000, loss 12.816254615783691
+epoch 900000, loss 12.720560073852539
